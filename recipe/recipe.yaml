@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: strif
-  version: 3.0.1
+  version: "3.0.2"
   python_min: 3.10
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/strif-${{ version }}.tar.gz
-  sha256: a312ea9540062ccd386132ac2eece93c0c4adaeb25a5f5da11eed7867b1ff31e
+  sha256: f7075164f4dcbe3bf89252ef7396bf0af6e2699f8487c5eab5871466b916b5a9
 
 build:
   number: 0
